@@ -15,10 +15,12 @@ public class ecAppSistema {
         ecBBA bomba = new ecBBA();
         bomba.ecExplotar(ciberDron.ecBuscar("c"));
 
+        System.out.println();
         ecHZangano zangano = new ecHZangano();
-        ecAlimento uva = new ecAlimento();
+        // alimento creado para que coma el zangano. Solo puede comer "Planta" y  "Carne" porque es omnivoro
+        ecAlimento alimento = new ecAlimento("carne");
 
-        zangano.ecComer(uva);
+        zangano.ecComer(alimento);
     }
 
 }

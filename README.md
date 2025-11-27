@@ -1,18 +1,17 @@
-## Getting Started
+## ANTDRON2K25
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Examen 1 - Programación II
 
-## Folder Structure
+Nombre: Erick Sebastián Chicaiza Diaz
 
-The workspace contains two folders by default, where:
+Cédula: 1756172894
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Link a repositorio en Github
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Link: 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Refactorización
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Se cambio la relación de herencia entre ecOmnivoro y ecAlimento.
+- Se eliminó la herencia entre ecOmnivoro y ecHZangano
+- Se añadio un atributo "nombre" al alimento para poder controlar la ingesta de comida del zangano

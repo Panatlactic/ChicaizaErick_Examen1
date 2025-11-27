@@ -25,7 +25,7 @@ public class ecInformacion {
                     try {
                         System.out.printf("\r%s %d%%", (i % 2 == 0) ? "o0o" : "0o0", i);
                         System.out.flush();
-                        Thread.sleep(25);
+                        Thread.sleep(10);
                     } catch (InterruptedException e) {
                         System.out.println("Carga interrumpida");
                     }
